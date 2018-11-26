@@ -80,7 +80,7 @@ main {
   .bio-image {
     grid-area: bioimage;
     margin: auto;
-    border-radius: 30%;
+    border-radius: 45%;
     border: $secondary-color 3px solid;
   }
 
@@ -180,6 +180,17 @@ main {
   background: darken($primary-color, 10);
   color: set-text-color($primary-color);
   height: 60px;
+}
+#contact-footer {
+  position: fixed;
+  /* left: 0; */
+  bottom: 0;
+  width: 100%;
+  background: darken($primary-color, 10);
+  color: set-text-color($primary-color);
+  text-align: center;
+  height: 60px;
+  padding: 1rem;
 }
 
 @import "_mobile";

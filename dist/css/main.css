@@ -165,7 +165,7 @@ main {
   .about-info .bio-image {
     grid-area: bioimage;
     margin: auto;
-    border-radius: 30%;
+    border-radius: 45%;
     border: #eece1a 3px solid; }
   .about-info .bio {
     grid-area: bio;
@@ -235,6 +235,17 @@ main {
   background: #2b2b2b;
   color: #fff;
   height: 60px; }
+
+#contact-footer {
+  position: fixed;
+  /* left: 0; */
+  bottom: 0;
+  width: 100%;
+  background: #2b2b2b;
+  color: #fff;
+  text-align: center;
+  height: 60px;
+  padding: 1rem; }
 
 @media screen and (min-width: 1171px) {
   .projects {
